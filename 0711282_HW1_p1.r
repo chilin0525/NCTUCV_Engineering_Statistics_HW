@@ -16,7 +16,7 @@ for(i in statis.score){
     id <- id + 1
     if(i>=60){
         pass_num <- pass_num + 1
-        pass_student <- c(pass_student,i)
+        pass_student <- c(pass_student,id)
     }
     if(i>max_score) max_score <- i
     if(i<min_score) min_score <- i
