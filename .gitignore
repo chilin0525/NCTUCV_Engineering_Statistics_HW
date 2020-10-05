@@ -3,3 +3,6 @@
 *.c
 *.txt
 makefile
+test.r
+.csv
+.txt
