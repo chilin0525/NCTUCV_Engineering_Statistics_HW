@@ -4,6 +4,6 @@
 *.txt
 makefile
 test.r
-.csv
-.txt
-.Rdata
+*.csv
+*.txt
+*.RData
