@@ -6,3 +6,4 @@ makefile
 test.r
 .csv
 .txt
+.Rdata
