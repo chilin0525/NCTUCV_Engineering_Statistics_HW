@@ -1,4 +1,5 @@
-# library("xlsx", lib.loc = "/home/chilin/Rlibs")
+library("xlsx")
+library(tidyverse)
 
 # --------Create Data------------
 (lct <- Sys.getlocale("LC_TIME"))
@@ -16,7 +17,7 @@ sales
 write.csv(sales,file="output.csv") # should ignore index?
 write.table(sales,file="output.txt")
 save(sales,file="output.RData")
-# write.xlsx(sales,file="output.xlsx",sheetName="sales",append=FALSE)
+write.xlsx(sales,file="output.xlsx",sheetName="sales",append=FALSE)
 
 sprintf("sales size: %f kb",object.size(sales)/1000)
 sum = 0;
