@@ -19,5 +19,6 @@ check_prime <- function(){
 }
 
 sink("prime.txt")
+cat("There are prime number:",sep="\n")
 check_prime()
 sink()
