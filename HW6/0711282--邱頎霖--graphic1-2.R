@@ -1,0 +1,8 @@
+par(mfrow=c(1,1),mai=c(0.6,0.6,0.1,0.1),bg='gray100',col.axis='white',fg='black',cex.axis=2)
+plot(1:24,rep(50,24),pch=20,col=terrain.colors(24),cex=5)
+points(1:24,rep(55,24),pch=20,col=topo.colors(24),cex=5)
+points(1:24,rep(60,24),pch=20,col=cm.colors(24),cex=5)
+points(1:24,rep(45,24),pch=20,col=heat.colors(24),cex=5)
+points(1:24,rep(40,24),pch=20,col=rainbow(24),cex=5)
+points(1:24,rep(35,24),pch=20,col=gray.colors(24),cex=5)
+#text(1:10,rep(1.1,10),labels=1:10,cex=3,col="black")
