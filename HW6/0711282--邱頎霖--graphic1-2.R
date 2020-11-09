@@ -1,3 +1,5 @@
+jpeg("test.jpeg",width=480,height=480)
+
 par(mfrow=c(1,1),mai=c(0.6,0.6,0.1,0.1),bg='gray100',col.axis='white',fg='black',cex.axis=2,xaxt='n',yaxt='n')
 plot(1:24,rep(55,24),pch=20,col=heat.colors(24),cex=5)
 points(1:24,rep(60,24),pch=20,col=terrain.colors(24),cex=5)
@@ -12,3 +14,4 @@ text(12,72,"cm.colors",font=4,cex=2)
 text(12,52,"rainbow",font=4,cex=2)
 text(12,47,"gray.colors",font=4,cex=2)
 
+dev.off()
