@@ -24,7 +24,7 @@ lines(density_SepLen$x,density_SepLen$y,col="blue")
 hist(Sepal.Width,
     main = "Sepal.Width",
     freq = FALSE,
-    breaks = seq(2,5,len=9),
+    breaks = seq(2,5,len=10),
     xlim = c(2,5),
     ylim = c(0,1.2),
     col = "pink")
@@ -33,6 +33,7 @@ lines(density_SepWid$x,density_SepWid$y,col="blue")
 hist(Petal.Length,
     main = "Petal.Length",
     freq = FALSE,
+    breaks = seq(1,7,len=10),
     xlim = c(1,7),
     ylim = c(0,0.5),
     col = "pink")
@@ -41,6 +42,7 @@ lines(density_PetLen$x,density_PetLen$y,col="blue")
 hist(Petal.Width,
     main = "Petal.Width",
     freq = FALSE,
+    breaks = seq(0,3,len=10),
     xlim = c(0,3),
     ylim = c(0,0.8),
     col = "pink")
