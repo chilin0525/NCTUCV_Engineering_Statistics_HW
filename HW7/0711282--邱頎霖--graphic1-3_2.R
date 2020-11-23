@@ -1,6 +1,6 @@
 attach(iris) # connect to iris dataset
 
-
+jpeg("normal.jpeg",width=960,height=960)
 
 par(mfrow=c(2,2),lwd=3)
 
@@ -14,3 +14,5 @@ qqnorm(Petal.Width,col="blue",ylab="Petal.Width",pch=6)
 qqline(Petal.Width,col="red")
 
 # should fix bin in hist
+
+dev.off()

@@ -1,5 +1,7 @@
 attach(iris) # connect to iris dataset
 
+jpeg("graph.jpeg",width=960,height=960)
+
 density_SepLen = density(Sepal.Length)
 density_SepWid = density(Sepal.Width)
 density_PetLen = density(Petal.Length)
@@ -49,3 +51,5 @@ hist(Petal.Width,
 lines(density_PetWid$x,density_PetWid$y,col="blue")
 
 # should fix bin in hist
+
+dev.off()
