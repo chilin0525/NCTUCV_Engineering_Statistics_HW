@@ -2,10 +2,10 @@ attach(iris) # connect to iris dataset
 
 
 
-par(mfrow=c(2,2))
+par(mfrow=c(2,2),lwd=3)
 
 qqnorm(Sepal.Length,col="blue")
-qqline(Sepal.Length,col="red",lwd=3)
+qqline(Sepal.Length,col="red")
 qqnorm(Sepal.Width,col="blue")
 qqline(Sepal.Width,col="red")
 qqnorm(Petal.Length,col="blue")
